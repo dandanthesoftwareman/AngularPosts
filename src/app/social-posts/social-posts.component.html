@@ -1,0 +1,6 @@
+<h1>Posts</h1>
+<app-post-form></app-post-form>
+<app-single-post *ngFor="let p of Posts; index as i">
+  <p>Posts[i].title</p>
+  <p>Posts[i}.body</p>
+</app-single-post>
